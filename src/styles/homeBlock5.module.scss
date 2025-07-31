@@ -1,0 +1,30 @@
+.card {
+  flex: 0 0 calc((100% - (30px * (1 - 1))) / 1);
+  scroll-snap-align: center;
+
+  @media (min-width: 640px) {
+    flex: 0 0 calc((100% - (30px * (1.5 - 1))) / 1.5);
+  }
+
+  @media (min-width: 768px) {
+    flex: 0 0 calc((100% - (30px * (2.5 - 1))) / 2.5);
+  }
+}
+
+.arrow {
+  @apply absolute justify-center items-center cursor-pointer
+    text-[clamp(1.5rem,1.2rem+0.75vw,1.875rem)]
+    text-[#fff] hover:text-[#000] bg-[#fff]/50 hover:bg-[#fff] w-[50px] h-[100px];
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left {
+  @apply rounded-r-full;
+  left: 0;
+}
+
+.right {
+  @apply rounded-l-full;
+  right: 0;
+}

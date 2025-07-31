@@ -1,0 +1,9 @@
+export { default as Hero } from '~/components/Hero';
+export { default as Footer } from '~/components/Footer';
+export { default as Navbar } from '~/components/Navbar';
+export { default as HomeBlock } from '~/components/HomeBlock';
+export { default as HomeBlock2 } from '~/components/HomeBlock2';
+export { default as HomeBlock3 } from '~/components/HomeBlock3';
+export { default as HomeBlock4 } from '~/components/HomeBlock4';
+export { default as HomeBlock5 } from '~/components/HomeBlock5';
+export { default as HomeBlock6 } from '~/components/HomeBlock6';
